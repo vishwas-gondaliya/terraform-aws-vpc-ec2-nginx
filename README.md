@@ -1,4 +1,4 @@
-# terraform-aws-vpc-ec2-nginx
+# Terraform-aws-vpc-ec2-nginx
 
 Minimal Terraform project that provisions an **AWS VPC (2 public subnets)** and launches an **EC2 (Amazon Linux 2023)** with **Nginx** installed via `user_data`. After `apply`, Terraform prints the instance **public IP/DNS** so you can open the Nginx page.
 
